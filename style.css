@@ -1,0 +1,116 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #e9f5ff;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background: #111;
+    padding: 1rem 0;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+.logo {
+    color: #fff;
+    margin: 0;
+    font-weight: 700;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+.nav-links li a:hover {
+    color: #00aaff;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #0056a6, #0099ff);
+    color: #fff;
+    padding: 3rem 20px;
+}
+.hero-text {
+    max-width: 50%;
+}
+.hero-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.hero-text p {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+.hero-image img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+.btn {
+    display: inline-block;
+    background: #ff9800;
+    color: #fff;
+    padding: 0.7rem 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn:hover {
+    background: #e68900;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem 20px;
+    background: #fff;
+}
+.about-img img {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+.about-text h2 {
+    margin-top: 0;
+    font-size: 2rem;
+    color: #0056a6;
+}
+.about-text p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+.hero-image {
+  width: 300px;       /* adjust as needed */
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+}
+
