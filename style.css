@@ -1,0 +1,145 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #e9f5ff;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background: #111;
+    padding: 1rem 0;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+.logo {
+    color: #fff;
+    margin: 0;
+    font-weight: 700;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+.nav-links li a:hover {
+    color: #00aaff;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    min-height: 80vh;
+}
+.hero-left {
+    background: #333;
+    color: white;
+    flex: 1;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero-left h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.hero-left p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+.btn-primary {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btn-primary:hover {
+    background: #0056b3;
+}
+.hero-right {
+    flex: 1;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    padding: 3rem;
+    background: white;
+    gap: 2rem;
+    align-items: center;
+}
+.about-left img {
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.about-right {
+    flex: 1;
+}
+.about-right h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.about-right h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #007bff;
+    margin-top: 5px;
+}
+.btn-download {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+.btn-download:hover {
+    background: #0056b3;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+.hero-image {
+  width: 300px;       /* adjust as needed */
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+}
